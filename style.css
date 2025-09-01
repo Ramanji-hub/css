@@ -1,0 +1,44 @@
+/* Whole Page */
+body {
+    background-color: white;   /* page background */
+    color:orangered;              /* default text */
+    font-size: 15px;           /* normal text size */
+    
+}
+
+/* Main Title */
+h2 {
+    color: red;
+    font-size: 30px;
+    background-color:yellowgreen;
+}
+
+/* Section Headings */
+h3 {
+    color: green;
+    font-size: 22px;
+    background-color: black;
+}
+
+/* Paragraphs */
+p {
+    color:lightseagreen;
+    font-size: 16px;
+}
+
+/* Links */
+a {
+    color: blue;
+    font-size: 16px;
+}
+a:hover {
+    color: red;
+}
+
+/* Preformatted text (Education section) */
+pre {
+    background-color: aqua;
+    color: black;
+    font-size: 15px;
+}
+

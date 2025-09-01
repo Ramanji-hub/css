@@ -1,0 +1,26 @@
+.coin{
+    gap: 60px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.summer,.brick,.renovated,.barn{
+    height: 150px;
+    width: 300px;
+    /* border: 2px solid red; */
+    position: relative;
+    
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+p{
+    background-color: black;
+    color: white;
+    top: 0px;
+    position:absolute;
+    padding: 7px;
+    margin: 0px;
+
+}
+
