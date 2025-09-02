@@ -1,0 +1,38 @@
+*{
+    scroll-behavior: smooth;
+}
+.student-portal{
+    background-color: black;
+    padding: 5px;
+    text-decoration: none;
+    position: fixed;
+    width: 100%;
+    
+    top: 0px;
+    z-index: +1;
+    
+
+    
+}
+a{
+    color: white;
+    display: inline;
+    text-decoration:dotted;
+}
+
+.student{
+    margin-top: 50px;
+}
+h2{
+    position: sticky;
+    background-color: lightgreen;
+    text-align: center;
+    color: purple;
+    top: 50px;
+    
+    
+}
+
+body{
+    background-color:lightcoral ;
+}
