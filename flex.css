@@ -1,0 +1,56 @@
+.container-1{
+    border: 2px solid;
+    width: 100%;
+    padding: 15px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.bi{
+    color: white;
+}
+hr{
+    margin: 40px;
+}
+
+.container-2{
+    border: 2px solid;
+    width: 100%;
+    /* padding: 5px; */
+    background-color: black;
+    display: flex;
+    justify-content:space-evenly;
+    
+
+}
+p{
+  color: white;  
+}
+
+.container-3{
+    border: 2px solid;
+    width: 100%;
+    /* height: 400px; */
+    padding: 15px;
+    background-color: black;
+    display: flex;
+}
+.bi1{
+    margin: 15px;
+    color: white;
+}
+.bi2{
+    color: white;
+    margin-left: 1280px;
+}
+
+.container-4{
+    border: 2px solid;
+    width: 100%;
+    padding: 15px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+}
