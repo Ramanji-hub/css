@@ -33,13 +33,39 @@
 
 
    2. combinators
-      
+    most impacted by sudo class and sudo elements.
+      they are 4 types of selectors
+      1. child selector = >
+      access the child 
+      (.container>.item.item-${item-$})
+
+      2. desendent => (space)
+     it can apply both direct and indirect work with in the container only.
+      3. adjacent sibling selector + (next sibling selector)
+      out side of the container it will apply only.
+
+      4. general sibiling selector ~
+      outside of the  container what are thier no of p div etcc it can apply.
    
    3. pclass
+   
    4. pelements
    5. attribute selectors
 
+   11-09-25.
+   pseudo class
+   which are : like this
+   hover,link,visited,active=>drag
+   except hover all 3 used only anchortag Ex: a:link{
+   }
+    :root{
+    color: red;
+    } it is body over all
+    Ex <p>hello</P> color red will cahanged
+
+    .conatiner>p:first-child (color: red),last -child , nth-child(even,odd,1,2,3)
     -->
     <h1>hello</h1>
+     
 </body>
 </html>
