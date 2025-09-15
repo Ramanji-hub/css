@@ -1,3 +1,4 @@
+
 .maincontainer{
 vertical-align: top;
 /* border: 2px solid; */
@@ -70,4 +71,78 @@ b{
     margin-top: 10px;
     margin-left: 215px;
     margin-right: 215px;
+=======
+.maincontainer{
+vertical-align: top;
+/* border: 2px solid; */
+margin-top: 100px;
+margin-right: 215px;
+margin-left: 215px;
+}
+
+.container1,.container2{
+    /* height: 600px; */
+    width: auto;
+    /* border: 2px solid; */
+    display: inline-block;
+    margin: 10px;
+    
+}
+.class{
+    /* border: 2px solid; */
+    width: 250px;
+    display: inline-block;
+    margin: 5px;
+    vertical-align: top;
+}
+img{
+    height: auto;
+    width: 100%;
+}
+h3{
+    text-align: center;
+    letter-spacing: 1px;
+    font-size:x-large;
+    font-weight: normal;
+}
+p{
+    text-align: center;
+}
+.a{
+    text-align: center;
+    /* border: 2px solid; */
+    margin-top: 30px;
+    padding: 6px;
+    letter-spacing: 4px;
+    font-size: x-large;
+    color: black;
+    margin-bottom: 50px;
+}
+hr{
+    margin-left: 215px;
+    margin-right: 215px;
+    transform: scaleY(0.2);
+    
+}
+.about{
+    margin-top: 60px;
+    text-align: center;
+    font-size: x-large;
+    margin-bottom: 30px;
+}
+.person{
+    width: 900px;
+    /* border: 2px solid; */
+    margin-left: 300px;
+    margin-right: 350px;
+}
+b{
+    font-size: large;
+}
+.p{
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 215px;
+    margin-right: 215px;
+>>>>>>> 093e2b6be7bd52c123ce096b519cf0cc5a877cac
 }
