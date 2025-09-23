@@ -1,0 +1,60 @@
+p{
+    border: 2px solid;
+    padding: 10px;
+    background-color: aqua;
+    color:red;
+}
+/* span{
+    color: blue;
+    font-style: italic;
+}
+p::before{
+    content: "Note:";
+    font-style: italic;
+    color: blue;
+}
+p::after{
+    content:"End!-----------";
+    color: gold;
+    font-style: italic;
+    background-color: black;
+    padding: 5px;
+    /* border-radius: 20px; */
+    /* border-top-left-radius: 15px; */
+    /* border-bottom-right-radius: 15px; */
+/* } */ 
+/* p::before{
+    content: "😄";
+    font-size: xx-large;
+}
+p::after{
+    content: "🤽";
+    font-size: xx-large;
+
+} */
+
+p::first-letter{
+    color: gold;
+    font-size: xx-large ;
+    text-transform:uppercase ;
+    background-color:red;
+    border-radius: 10px;
+}
+p::selection{
+    background-color: purple;
+    color: white;
+}
+p::first-line{
+    /* background-color: yellow; */
+    text-transform: uppercase;
+    color: lightgreen;
+}
+li::before{
+    content:"😅" ;
+}
+li::after{
+    content:"🙄"
+}
+li::marker{
+    content:"😆" ;
+}
